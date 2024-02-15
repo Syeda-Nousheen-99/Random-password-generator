@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Nunito:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #FFFFFF;
+}
+.container{
+    width: 500px;
+    background: #2F4F4F;
+    border-radius: 8px;
+    min-height: 450px;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 1.60rem;
+    padding: 1rem 1.175rem;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.container span{
+    color: #FFD700;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.display{
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    color: #FFD700;
+    border-radius: 5px;
+    padding: 26px 5px;
+
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #2F4F4F;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+.password {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.display{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    color: #FFD700;
+    border-radius: 5px;
+    padding: 20px 20px;
+
+}
+.display img{
+    width: 20px;
+    cursor: pointer;
+} 
+.display input{
+   border: 0;
+   outline: 0;
+   font-size: 18px; 
+}
+button {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    display: flex;
+    background: #FFD700;
+    color: #2F4F4F;
+    font-size: 16px;
+    padding: 16px 26px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #f5e16f;
+}
